@@ -17,7 +17,7 @@ const router = createBrowserRouter([
       },
       {
         element: <KakaoLogInPage />,
-        path: ROUTE_PATH.KAKAO_LOGIN,
+        path: ROUTE_PATH.KAKAO_LOGIN_REDIRECT,
       },
       { path: ROUTE_PATH.ROOT, element: <AuthLayout /> },
     ],
